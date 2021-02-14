@@ -1,0 +1,24 @@
+NOTE: To be run using the COMMAND LINE
+NOTE: To be run with either python ... or py ...
+NOTE: For a few of the problems with more windows, windows may initally appear grey. Wait a second and the images will appear.
+NOTE: The program will also save files as well as show them in seperate windows, please check as some windows appear behind eachother.
+
+Problem 1: - Img, Problem Num, darkening coefficient, blending coefficent, mode (where 0 = light leak and 1 = rainbow)
+python skbh77.py "face1.jpg" 1 2 0.4 0
+python skbh77.py "face1.jpg" 1 2 0.4 1
+python skbh77.py "face2.jpg" 1 2 0.4 0
+python skbh77.py "face2.jpg" 1 2 0.4 1
+
+Problem 2: - Img, Problem Num, blending coefficient, mode (where 0 = pencil and 1 = coloured)
+python skbh77.py "face1.jpg" 2 0.4 0
+python skbh77.py "face1.jpg" 2 0.4 1
+python skbh77.py "face2.jpg" 2 0.4 0
+python skbh77.py "face2.jpg" 2 0.4 1
+
+Problem 3: - Img, Problem Num, size of blur, sigma for blur, brightening coefficient, darkening coefficient
+python skbh77.py "face1.jpg" 3 5 0.4 1.5 0.9
+python skbh77.py "face2.jpg" 3 5 0.4 1.5 0.9
+
+Problem 4: - Img, Problem Num, size of blur, angle of swirl, size of swirl
+python skbh77.py "face1.jpg" 4 100 1.5707 150 
+python skbh77.py "face2.jpg" 4 100 1.5707 150 
